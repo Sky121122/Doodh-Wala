@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Doodh Wala",
+    "slug": "Daily-Doodh",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.jpg",
+    "scheme": "dailydoodh",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.saket121122.DailyDoodh"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/icon.jpg",
+          "imageWidth": "100%",
+          "resizeMode": "cover",
+          "backgroundColor": "#fff",
+          "dark": {
+            "backgroundColor": "#fff"
+          }
+        }
+      ],
+      "expo-font",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "1b8c8c6b-d3f1-4f7d-8a3c-3171845122ca"
+      }
+    },
+    "owner": "saket121122"
+  }
+}
