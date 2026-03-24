@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Doodh Wala",
-    "slug": "Daily-Doodh",
+    "slug": "Doodh-Wala",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.jpg",
@@ -44,12 +44,12 @@
       "typedRoutes": true,
       "reactCompiler": true
     },
+    "owner": "saket121122",
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "1b8c8c6b-d3f1-4f7d-8a3c-3171845122ca"
+        "projectId": "c1c5e18e-0c33-4d10-a4df-77dd8ebe6cd2"
       }
-    },
-    "owner": "saket121122"
+    }
   }
 }
